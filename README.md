@@ -7,11 +7,19 @@
 [![GitHub stars](https://img.shields.io/github/stars/icaoberg/docker-documentation.svg)](https://github.com/icaoberg/docker-documentation/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://raw.githubusercontent.com/icaoberg/docker-documentation/master/LICENSE)
 
+## Building the image from the Dockerfile
+
+[![asciicast](https://asciinema.org/a/216243.svg)](https://asciinema.org/a/216243)
+
 To build the image using the `Dockerfile` in this repository, run the command
 
 ```
 ➜ docker build -t "icaoberg/documentation" .
 ```
+
+## Running a container
+
+[![asciicast](https://asciinema.org/a/216245.svg)](https://asciinema.org/a/216245)
 
 To run a container from image above, run the command
 
