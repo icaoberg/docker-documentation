@@ -7,8 +7,22 @@
 [![GitHub stars](https://img.shields.io/github/stars/icaoberg/docker-documentation.svg)](https://github.com/icaoberg/docker-documentation/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://raw.githubusercontent.com/icaoberg/docker-documentation/master/LICENSE)
 
-To build a container using the `Dockerfile` in this repository, run the command
+To build the image using the `Dockerfile` in this repository, run the command
 
 ```
 ➜ docker build -t "icaoberg/documentation" .
 ```
+
+To run a container from image above, run the command
+
+```
+docker run -i -t "icaoberg/documentation"
+```
+
+## Tools
+The tools installed in the container stargazers
+* [pandoc](https://pandoc.org/)
+* sphinx
+* vim
+* xmllint
+* [TeXLive](https://www.tug.org/texlive/)
