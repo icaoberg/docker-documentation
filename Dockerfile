@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:16.04
 
 ###############################################################################################
 MAINTAINER Ivan E. Cao-Berg <icaoberg@alumni.cmu.edu>
@@ -13,9 +13,8 @@ RUN apt-get install -y --no-install-recommends apt-utils build-essential wget gi
   texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra \
   pandoc \
   vim \
-  graphviz libxml2-utils \
-  python3 python3-pip python3-setuptools
-RUN pip3 install numpy scipy matplotlib xlrd sphinx pandas tabulate sphinx_rtd_theme sphinxcontrib.gist
+  wget curl \
+  graphviz libxml2-utils
 ###############################################################################################
 
 ###############################################################################################
